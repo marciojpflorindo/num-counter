@@ -11,11 +11,13 @@ body {
 }
 
 h1 {
+	font-family: sans-serif;
 	font-size: 3rem;
+	color: #4b5858;
 }
 
 .title {
-	margin: 50px;
+	margin: 150px 0 50px;
 }
 
 .square {
