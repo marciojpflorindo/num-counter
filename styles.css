@@ -1,0 +1,44 @@
+*,
+*::before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #b2cecf;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+.title {
+	margin: 50px;
+}
+
+.square {
+	width: 240px;
+	height: 240px;
+	border: 4px solid #4b5858;
+	margin: auto;
+}
+
+.result {
+	font-size: 5rem;
+	color: #4b5858;
+	line-height: 150px;
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.button {
+	padding: 0.5em;
+	color: #4b5858;
+	border-radius: 50%;
+}
